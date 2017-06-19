@@ -85,7 +85,7 @@ HPLlib       = $(LIBdir)/libhpl.a
 #
 MPdir        = /usr/local/mpi
 MPinc        = -I/usr/include/mpich
-MPlib        = /usr/lib/x86_64-linux-gnu/libmpich.a
+MPlib        = /usr/lib/x86_64-linux-gnu/libmpich.a -lcr
 #
 # ----------------------------------------------------------------------
 # - Linear Algebra library (BLAS or VSIPL) -----------------------------
