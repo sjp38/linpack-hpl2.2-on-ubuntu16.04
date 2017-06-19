@@ -84,8 +84,8 @@ HPLlib       = $(LIBdir)/libhpl.a
 # used. The variable MPdir is only used for defining MPinc and MPlib.
 #
 MPdir        = /usr/local/mpi
-MPinc        = -I$(MPdir)/include
-MPlib        = $(MPdir)/lib/libmpich.a
+MPinc        = -I/usr/include/mpich
+MPlib        = /usr/lib/x86_64-linux-gnu/libmpich.a
 #
 # ----------------------------------------------------------------------
 # - Linear Algebra library (BLAS or VSIPL) -----------------------------
