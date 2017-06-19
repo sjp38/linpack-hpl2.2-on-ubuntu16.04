@@ -96,7 +96,7 @@ MPlib        = /usr/lib/x86_64-linux-gnu/libmpich.a
 #
 LAdir        = /usr/lib/atlas-base
 LAinc        =
-LAlib        = $(LAdir)/libcblas.a $(LAdir)/libatlas.a
+LAlib        = $(LAdir)/libcblas.a $(LAdir)/libatlas.a -pthread
 #
 # ----------------------------------------------------------------------
 # - F77 / C interface --------------------------------------------------
