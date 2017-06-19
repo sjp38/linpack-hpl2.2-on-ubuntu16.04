@@ -26,7 +26,7 @@
  4) Quick check: run a few tests:
 
     cd bin/<arch>
-    mpirun -np 4 xhpl
+    mpirun -np 4 ./xhpl
 
  5) Tuning: Most of the performance  parameters can be tuned,
  by modifying the input file bin/HPL.dat. See the file TUNING
