@@ -67,8 +67,6 @@ ARCH         = Linux_ATHLON_CBLAS
 # - HPL Directory Structure / HPL library ------------------------------
 # ----------------------------------------------------------------------
 #
-# sj changed for the environment
-#TOPdir       = $(HOME)/hpl
 TOPdir       = $(HOME)/linpack/hpl-2.2
 INCdir       = $(TOPdir)/include
 BINdir       = $(TOPdir)/bin/$(ARCH)
