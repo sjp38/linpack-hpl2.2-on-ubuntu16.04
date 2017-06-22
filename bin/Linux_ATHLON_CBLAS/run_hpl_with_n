@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Change N with first argument
+sed -i '6s/[0-9]*/'$1'/' HPL.dat
+
+mpirun -np 144 ./xhpl
